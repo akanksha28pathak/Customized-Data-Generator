@@ -1,4 +1,15 @@
+import pickle
+import numpy as np
+from itertools import combinations
+import scipy.io as sio
+from numpy import random
+import os
+
+labels=np.load('labels_data.npy',allow_pickle='TRUE').item()
+partition=np.load('partition.npy,allow_pickle='TRUE').item()
+
 # Function to load file corresponding to ‘ID_val’. Enter your file_path. For example to load a mat file
+
 def get_input(ID_val):
    aa=sio.loadmat(file_path, ID_val+'.mat')
    return( aa )
