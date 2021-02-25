@@ -5,4 +5,4 @@ I. partition_form.py - creates dictionary named as 'partition' which contains  k
 
 II. label_data_formation.py- creates a dictionary 'labels_data' where keys are denoted by names of indices and their values denote the respective class label.
 
-III. 
+III. -contains code for train generator and test generator. The validation generator will be same as test generator. 
